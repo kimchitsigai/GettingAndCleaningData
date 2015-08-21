@@ -19,3 +19,8 @@ The Subject column is appended to the data frame computed in Question 3.
 Then, for each subject s, activity a, variable v, the mean is calculated.
 A record containing the Suject, Activity, Variable Name and Average is appended to the finale data frame (the tidy dataset).
 The tidy dataset contains 30(users) * 6 (activities) * 66 (mean and std variables)= 11880 records.
+
+codebook.txt describes the features in the tidy dataset.
+The original data description and datasets can be found here : 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+

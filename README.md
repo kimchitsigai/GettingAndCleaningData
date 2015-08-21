@@ -1,5 +1,7 @@
 # GettingAndCleaningData
 
+The working directory is supposed to contain the global data files and the train and test directories.
+
 The function run_analysis() first loads plyr as it uses the mapvalues() function.
 
 For Question 1, X_train.txt and X_test.txt files are read then rbind()ed.
@@ -15,4 +17,5 @@ For Question 4. Labels for the columns can be found in the features data frame r
 For Question 5. subjects_train.txt and subjects_test.txt say to which subject an observation corresponds. 
 The Subject clumn is appended to the data frame computed in Question 3.
 Then, for each subject s, activity a, variable v, the mean is calculated.
-A record containing the Suject, Activity, Variable NAme and Average is appended to the finale data frame (the tidy dataset).
+A record containing the Suject, Activity, Variable Name and Average is appended to the finale data frame (the tidy dataset).
+The tidy dataset contains 30(users) * 6 (activities) * 66 (mean and std variables)= 11880 records.
